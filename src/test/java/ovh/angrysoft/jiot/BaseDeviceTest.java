@@ -22,7 +22,6 @@ public class BaseDeviceTest {
     void testGetDeviceStatus() {
         System.out.println(device.getDeviceStatus());
     }
-    
 }
 
 class DummyDevice extends BaseDevice implements OnOff, Toggle {
